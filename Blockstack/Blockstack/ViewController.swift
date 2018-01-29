@@ -23,7 +23,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         super.viewDidLoad()
         webView.navigationDelegate = self
         
-        let myURL = URL(string: "http://blockstack-browser.s3-website-us-west-1.amazonaws.com/")
+        let myURL = URL(string: "https://browser.blockstack.org/")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
     }
